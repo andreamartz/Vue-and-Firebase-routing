@@ -7,6 +7,7 @@ import ViewProfile from "@/components/ViewProfile";
 Vue.use(Router); // tells Vue to use the Router plug-in
 
 export default new Router({
+  mode: "history",
   routes: [
     {
       path: "/",
