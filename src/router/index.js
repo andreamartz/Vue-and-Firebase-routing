@@ -15,7 +15,7 @@ export default new Router({
     {
       path: "/about",
       name: "About",
-      compontne: About
+      component: About
     }
   ]
 });
